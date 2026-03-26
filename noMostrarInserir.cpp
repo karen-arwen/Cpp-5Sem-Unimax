@@ -4,7 +4,7 @@ struct No{
 	int dado;
 	No* esq;
 	No* dir;
-	No(int val),dado(val),esq(NULL),dir(NULL)){}
+	No(int val):dado(val),esq(NULL),dir(NULL)){}
 };No* raiz;
 
 void inserir(int valor){
